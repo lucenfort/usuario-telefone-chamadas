@@ -1,7 +1,7 @@
 # usuario-telefone-chamadas
 Implementação de uma classe para representar usuários de telefone, incluindo funcionalidades para verificar saldo e realizar chamadas, com encapsulamento de atributos e herança.
 
-# Desafio: Usuário Telefone
+# Desafio: Realizando Chamadas
 
 Vamos agora, adicionar uma funcionalidade à classe `UsuarioTelefone`, que realizar chamadas para outros usuários. Cada chamada terá uma duração em minutos e o custo será deduzido do saldo do usuário, suponha o custo de $0.10 por minuto. Você pode criar um método `fazer_chamada` que vai permitir que o usuário faça a chamada, ele vai receber o `destinatario` e `duracao` como parâmetros. Calcule o custo da chamada usando o método `custo_chamada` do objeto `plano`, além de adicionar o método `deduzir_saldo` para deduzir o valor do saldo do plano e depois retorne uma mensagem adequada como mostra no exemplo a baixo.
 
